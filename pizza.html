@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Pizza Place</title>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    
+   <div id="wrapper">
+    <div class="grid-container">
+          
+        <div class="grid-top"><img src="bilder/topbanner.jpg" alt=""></div>
+        <div class="grid-login">Login Logout</div>
+        <div class="grid-content">
+            
+           <h1 style="text-align: center; ">Welche Pizza darf es heute sein?</h1>
+           <form action="auswahl.php" method="post">
+           
+            <table>
+            
+            <col width = 30%>
+              
+
+            <tr>
+                <td><img class="pizzabild" src="bilder/pizza1.webp" alt=""></td>
+                <td>
+                    <h3>Pizza Supreme Chicken</h3> mit frischen Tomaten, Hähnchenbrustfilet, roten Zwiebeln und Paprika. <br>Preis: 5,99€<br><br> 
+                    Anzahl: 
+                    <input class="mengeIn" name="p1" type="number" min="0" max="15" value="0"> <br>
+                    
+                </td> 
+               
+                <td></td>
+            </tr>
+            <tr>
+                <td><img class="pizzabild" src="bilder/pizza2.webp"></td>
+                <td>
+                    <h3>Pizza Creamy Chicken</h3> mit Sahnesauce, frischen Champignons, Hähnchenbrustfilet, roten Zwiebeln und Bacon. <br>Preis: 7,99€<br><br>
+                    Anzahl: 
+                    <input class="mengeIn" name="p2" type="number" min="0" max="15" value="0">
+                
+                </td>
+            </tr>
+            <tr>
+                <td><img class="pizzabild" src="bilder/pizza3.webp"></td>
+                <td><h3>Pizza Smokey Chicken</h3>mit BBQ-Sauce, Hähnchenbrustfilet, roten Zwiebeln, Cherrytomaten und Mozzarella-Kugeln. <br>Preis: 6,99€ <br><br>
+                    Anzahl: 
+                    <input class="mengeIn" name="p3" type="number" min="0" max="15" value="0">
+                </td>
+            </tr>
+
+            </table>
+            <br><br>
+
+            <input class ="button" type="Submit">
+            
+
+            </form>
+
+        
+        
+
+           
+
+        </div>
+        <div class="grid-bottom"><img src="bilder/bottombanner.jpg" id="bottombanner"></div>
+        
+    
+    
+    </div>
+
+
+</div>
+      
+
+     
+
+        
+
+
+    
+
+    
+    
+    
+    
+</body>
+
+
+</html>
